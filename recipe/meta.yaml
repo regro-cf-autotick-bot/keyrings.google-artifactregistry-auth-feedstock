@@ -1,5 +1,5 @@
 {% set name = "keyrings.google-artifactregistry-auth" %}
-{% set version = "1.1.1" %}
+{% set version = "1.1.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/keyrings.google-artifactregistry-auth-{{ version }}.tar.gz
-  sha256: beb037fbf6b0c2ce11d810319fdc180cab8865daa2a16b109c3af73182ffe44d
+  sha256: bd6abb72740d2dfeb4a5c03c3b105c6f7dba169caa29dee3959694f1f02c77de
 
 build:
   noarch: python
